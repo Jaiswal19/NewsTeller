@@ -1,0 +1,135 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(240, 229, 209); */
+    /* color:white; */
+    /* font-size: 62.5%; */
+}
+
+.navbar1 {
+    display: flex;
+    background-color:rgb(183, 230, 237);
+    position: sticky;
+}
+.logo {
+    font-family: 'Lobster', cursive;
+    width: 60%;
+}
+
+#side {
+    font-size: 1.6rem;
+    margin: 0;
+    margin-top:-1rem;
+}
+
+#main {
+    font-size: 3.5rem;
+    margin: 0;
+    margin-bottom:-0.5rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin:0.1rem;
+}
+
+#d-first {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+#d-second {
+    margin-left: 0.2rem ;
+    font-family: 'Lobster', cursive;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: end;
+    align-items:center;
+    width: 20%;
+    margin:0.3rem;
+}
+
+.search input {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 23px;
+    text-align: center;
+    width:100%;
+}
+
+.search button {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 23px;
+    margin: 0.3rem;
+    width: 15%;
+}
+.adjust{
+    height:14rem;
+    width:28rem;
+}
+@media screen and (max-width: 990px){ 
+    .navbar1 {
+       flex-direction: column;
+    }
+    .date{
+        margin:auto;
+        margin:auto 0.2rem;
+        width:100%;
+    }
+    .logo{
+        margin:auto;
+        margin-bottom: 0.2rem;
+        width:100%;
+    }
+    .search{
+        margin:auto;
+        width:60%;
+    }
+    #side {
+        font-size: 1rem;
+        margin: 0;
+    }
+    
+    #main {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+    .search input {
+        font-size: 0.7rem;
+        padding: 0.5rem;
+    }
+    
+    .search button {
+        font-size: 0.7rem;
+        padding: 0.5rem;
+        margin: 0.3rem;
+    }
+    .date p{
+        margin:0rem;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+    .adjust{
+        height:50%;
+        width:100%;
+    }
+}
